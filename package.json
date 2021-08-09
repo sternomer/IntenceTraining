@@ -25,6 +25,8 @@
     "one-liner-joke": "^1.2.2",
     "path": "^0.12.7",
     "promisify": "0.0.3",
+    "prompt-sync": "^4.2.0",
+    "prompt-sync-history": "^1.0.1",
     "shelljs": "^0.8.4",
     "util": "^0.12.4"
   }

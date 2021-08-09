@@ -29,6 +29,6 @@ if (numOfJokes < 50){
     console.log('you must have at least 50 jokes')
     }
         else{
-            joke();
+            joke(55);
         }
     

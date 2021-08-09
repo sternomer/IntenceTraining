@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/sternomer/intencelearning#readme",
   "dependencies": {
+    "prompt-sync": "^4.2.0",
     "random-words": "^1.1.1"
   }
 }
