@@ -45,7 +45,7 @@ const folderpath = './filesandfolders/';
             break;
 
             case('8'):
-            const unionFiles = require('./unioFiles');
+            const unionFiles = require('./unionFiles');
             break;
 
             case('9'):
