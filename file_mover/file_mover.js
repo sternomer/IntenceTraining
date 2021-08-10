@@ -28,4 +28,4 @@ function moveThem (){
 
 moveThem();
 
-// setInterval(moveThem,1500);
+setInterval(moveThem,1500);

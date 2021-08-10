@@ -1,24 +1,13 @@
 {
-  "name": "jokes",
+  "name": "intencetraining",
   "version": "1.0.0",
-  "description": "",
+  "description": "omer",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sternomer/intencelearning.git"
-  },
-  "author": "omer",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sternomer/intencelearning/issues"
-  },
-  "homepage": "https://github.com/sternomer/intencelearning#readme",
   "dependencies": {
+    "console": "^0.7.2",
     "dotenv": "^10.0.0",
     "env": "0.0.2",
+    "eslint": "^7.32.0",
     "fs": "0.0.1-security",
     "fs-extra": "^10.0.0",
     "join": "^3.0.0",
@@ -29,5 +18,19 @@
     "prompt-sync-history": "^1.0.1",
     "shelljs": "^0.8.4",
     "util": "^0.12.4"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sternomer/IntenceTraining.git"
+  },
+  "author": "omer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sternomer/IntenceTraining/issues"
+  },
+  "homepage": "https://github.com/sternomer/IntenceTraining#readme"
 }
