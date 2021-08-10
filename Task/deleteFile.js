@@ -17,4 +17,4 @@ function deleteFile(){
     })
 
 }
-module.exports= deleteFile();
+module.exports= deleteFile;

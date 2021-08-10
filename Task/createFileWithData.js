@@ -10,4 +10,4 @@ function createFilewithData(){
     fs.writeFileSync(`${folderpath}${fileName}`,data);
     return fileName;
 }
-module.exports = createFilewithData();
+module.exports = createFilewithData;

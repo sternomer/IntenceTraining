@@ -17,3 +17,4 @@ ddfd.txt
 sdsdsd.txt
 dsdsds.txt
 dede.txt
+.txt

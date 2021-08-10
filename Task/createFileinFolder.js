@@ -9,4 +9,4 @@ function createFileinFolder(){
     fs.writeFileSync(`${folderpath}${fileName}`,'');
     
 }
-module.exports= createFileinFolder();
+module.exports= createFileinFolder;
