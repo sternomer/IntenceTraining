@@ -6,7 +6,7 @@ const folderpath = './filesandfolders/';
 
 function createFileinFolder(){
     fileName = ps('enter the name of your file :');
-    fs.writeFileSync(`${folderpath}${fileName}`);
+    fs.writeFileSync(`${folderpath}${fileName}`,'');
     
 }
-module.exports= createFileinFolder();
+module.exports= createFileinFolder;

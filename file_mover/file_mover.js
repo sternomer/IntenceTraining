@@ -18,7 +18,7 @@ function moveThem (){
         fs.appendFile(`./moved_files.txt`,`${fileNames[i]}\n`,function (err){
             if (err) throw err
         })
-        console.log(`${fileNames[i]}`);
+
         
 
 
@@ -26,6 +26,5 @@ function moveThem (){
    
 }
 
-moveThem();
 
 setInterval(moveThem,1500);

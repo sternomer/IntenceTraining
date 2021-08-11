@@ -11,10 +11,10 @@ function deleteFileFromFolder(){
      
     fs.unlink(`${folderpath}${fileName}`,function (err){
         if(err)throw err;
-        console.log(folderpath + fileName);
+        
 
     })
 
 
 }
-module.exports=deleteFileFromFolder();
+module.exports=deleteFileFromFolder;

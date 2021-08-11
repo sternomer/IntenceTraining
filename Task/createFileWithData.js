@@ -6,8 +6,8 @@ const folderpath = './filesandfolders/';
 
 function createFilewithData(){
     fileName = ps('enter the file name:');
-    let data = ps('enter the data : ')
-   fs.writeFileSync(`${folderpath}${fileName}`,data);
+    let data = ps('enter the data : ');
+    fs.writeFileSync(`${folderpath}${fileName}`,data);
     return fileName;
 }
-module.exports = createFilewithData();
+module.exports = createFilewithData;
